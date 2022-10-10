@@ -1,7 +1,6 @@
 .biggestspin {
     font-size: 150px;
-    animation:spin 2s linear 0s infinite
-    width: 80%;
+    animation:spin 2s linear 0s infinite;
     margin: auto;
 }
 
