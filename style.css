@@ -1,7 +1,7 @@
 .biggestspin {
     font-size: 150px;
     text-align: center;
-    animation:spin 2s linear 0s infinite;
+    animation:spin 5s linear 0s infinite;
 }
 
 @keyframes spin {
