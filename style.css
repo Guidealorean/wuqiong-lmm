@@ -3,6 +3,11 @@
     animation:spin 2s linear 0s infinite
 }
 
+
+.regular {
+    text-align: center;
+}
+
 @keyframes spin {
     0% {
         transform: rotateY(-90deg);
