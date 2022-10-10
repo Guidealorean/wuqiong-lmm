@@ -1,10 +1,19 @@
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="regular">
-        <p class="biggestspin">huegh</p>
-    </div>
-</body>
-</html>
+.biggestspin {
+    font-size: 150px;
+    text-align: center;
+    animation:spin 2s linear 0s infinite
+}
+
+
+.regular {
+    text-align: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(-90deg);
+    }
+    100% {
+        transform: rotateY(90deg);
+    }
+}
