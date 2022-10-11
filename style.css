@@ -41,16 +41,21 @@
   }
 .biggestspin {
     font-size: 150px;
+    font-weight: 600;
     text-align: center;
+    perspective: 150em;
     animation:spin 5s linear 0s infinite;
 }
 .page_header  {
-    margin: auto;
+    perspective: 100em;
+    margin:auto;
 }
 
 .page_header .text {
     font-size: 150px;
+    font-weight: 600;
     text-align: center;
+    width: 100%;
 }
 .page_header:hover p {
     animation:rgb_reg 2s linear 0s infinite;
@@ -86,10 +91,26 @@ div.gallery_video {
     text-align: center;
   }
 
+  .placeholder_text {
+    animation: placeholder-text-anim 5s forwards 3s ;
+  }
+
+@keyframes placeholder-text-anim {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 @keyframes rgb_reg {
     0% {
         color: rgb(255, 0, 0);
-        transform: rotateY(-90deg);
+        transform: rotateY(0deg);
     }
     50% {
         color: rgb(0, 255, 0);
@@ -99,7 +120,7 @@ div.gallery_video {
     }
     100% {
         color: rgb(255, 0, 9);
-        transform: rotateY(90deg);
+        transform: rotateY(360deg);
     }
 }
 
