@@ -8,12 +8,13 @@
     background-image: url(woodenplank.jpg);
     background-repeat: repeat;
     overflow-x: hidden;
-    padding: 8px 8px ;
+    padding: 16px 16px ;
+    border: thick double #ff9c08;
   }
 
   .main {
     height: 100%;
-    margin-left: 248px;
+    margin-left: 278px;
     font-size: 28px; 
     overflow-x: hidden;
     background: #eee;
